@@ -1,6 +1,6 @@
 let web3 = require('../utils/InitWeb3');
 
-let address = '0x0e7e58eC61428dAAC33E183fE73C485Cfc9d824F';
+let address = '0xEC11Dc1A13162583beaC69271d751134fFA9a685';
 let abi = [
     {
         "constant": false,

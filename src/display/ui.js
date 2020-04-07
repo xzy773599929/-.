@@ -15,6 +15,10 @@ const CardExampleCard = (props) => (
                 <Label>
                     {props.account}
                 </Label>
+                <p>上期中奖:</p>
+                <Label>
+                    {props.winner}
+                </Label>
             </Card.Meta>
             <Card.Description>
                 每晚八点准时开奖！
@@ -37,7 +41,7 @@ const CardExampleCard = (props) => (
         <Card.Content extra>
             <Statistic color='violet'>
                 <Statistic.Value>第{props.round}期</Statistic.Value>
-                <a href="#">点击查看交易历史</a>
+                <a href="https://ropsten.etherscan.io/address/0xEC11Dc1A13162583beaC69271d751134fFA9a685">点击查看交易历史</a>
             </Statistic>
         </Card.Content>
         <Button animated='fade' color='orange' onClick={props.play} disabled={props.isPlaying}>
